@@ -1,2 +1,2 @@
 # M-Dimonka.github.io
-Dmitriy Zaparenko || Donetsk, Ukraine
+Dmitry Zaparenko || Donetsk, Ukraine
