@@ -1,0 +1,25 @@
+@font-face{
+	font-family: 'Raleway Regular';
+	src: local('Raleway Regular'), 
+	url(Fonts/Raleway-regular.ttf) format('ttf'),
+	url(Fonts/Raleway-Regular.otf) format('otf'),
+	url(fonts/Raleway-Regular.woff) format('woff'),
+	url(fonts/Raleway-Regular.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Poppins Light';
+	src:  local('Poppins Light'), 
+	url(fonts/Poppins-Light.ttf) format('ttf'),
+	url(fonts/Poppins-Light.woff) format('woff'),
+	url(fonts/Poppins-Light.woff2) format('woff2');
+}
+
+@font-face{
+	font-family: 'EuroSansPro-Lig';
+	src: local('EuroSansPro-Lig'),
+	url(fonts/EuroSansPro-Lig.ttf) format('ttf'),
+	url(fonts/EuroSansPro-Lig.woff) format('woff'),
+	url(fonts/EuroSansPro-Lig.woff2) format('woff2');
+}
+

@@ -1,0 +1,178 @@
+body{
+	background:  url(../images/honeycomb.png) #3aa2b8;
+}
+
+a, a:hover{text-decoration: none;}
+
+.clear{
+	clear: both;
+}
+
+.area{
+	width: 800px;
+	background:  #fff;
+	border-radius:  16px;
+	margin:  4% auto 0;
+	padding: 14px;
+	box-shadow:  0 0 11px 3px rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	position: relative;
+}
+
+/*****************Вступительный текст*****************/
+.text-intro p{
+	color: #262727;
+	font: 18px/1.5 'Raleway Regular', Arial, sans-serif;
+	text-align: center;
+	margin:  0 auto;
+}
+
+.text-intro p:nth-child(1){
+	font-size: 20px;
+}
+
+.text-intro p:nth-child(2){
+	padding-bottom:  8px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/*****************Контактная информация*****************/
+.wrapper{
+	position: relative;
+	width:  261px;
+	height: 459px;
+	float:  left;
+}
+
+.contacts{
+	width:  240px;
+	overflow:  hidden;
+	padding:  30px 10px 13px;
+	text-align:  center;
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	border-bottom-left-radius:  13px;
+	border-bottom-right-radius:  13px;
+	transition: background-color, .12s linear;
+	position:  relative;
+	z-index: 1;
+	background-color: #fff;
+}
+
+.contacts:hover{
+	background-color: #ebebeb;
+}
+
+.contacts ul{
+	margin-top:  20px;
+}
+
+.contacts ul li{
+	margin-top:  6px;
+}
+
+.contacts ul li, .contacts a{
+	color: #262727;
+	font: 16px/1.5 'Poppins Light', Arial, sans-serif;
+}
+
+.contacts a{
+	font-weight:  bold;
+	padding-left: 10px;
+	transition: color 0.15s linear;
+}
+
+.contacts a:hover{
+	color:  #6fca1e;
+}
+
+/*****************Ссылка на профиль*****************/
+.profile{
+	width:  260px;
+	height:  216px;
+	position: absolute;
+	z-index: 0;
+	bottom:  0px;
+	left:  0px;
+	border:  1px solid #e0e0e0;
+	border-top:  none;
+	border-bottom-left-radius: 13px;
+	transition: background-color, .12s linear;	
+}
+
+.profile:hover{
+	background-color: #ffdbdb;
+}
+
+.profile p{
+	text-align:  center;
+	font: 32px/1.3 'Raleway Regular', Arial, sans-serif;
+	margin-top:  77px;
+}
+
+.profile a{
+	color: #3189cc;
+	transition: border-bottom, 0.09s linear;
+}
+
+.profile a:hover{
+	border-bottom:  2px solid #3ba6f9;
+}
+
+/*****************Галлерея с работами*****************/
+.gallery{
+	width:  538px;
+	border:  1px solid #e0e0e0;
+	border-top:  none;
+	border-left:  none;
+	border-bottom-right-radius: 13px;
+	transition:  background-color, .12s linear;
+	position: absolute;
+	right: 13px;
+	top: 80px;
+}
+
+.gallery:hover{
+	background-color: #dcf1f5;
+}
+
+.gallery > p{
+	margin-top:  15px;
+	font: 22px/1.5 'EuroSansPro-Lig', Arial, sans-serif;
+	text-align:  center;
+}
+
+.list{
+	overflow: hidden;
+	margin-top:  4px;
+	padding: 14px 27px 0;
+}
+
+.list li{
+	margin-bottom:  46px;
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+	float: left;	
+	width:  228px;
+	height:  150px;
+	transition: scale, 0.14s linear;
+	will-change: transform;
+}
+
+.list li:hover{
+	transform:  scale(1.04);
+}
+
+.list li:nth-child(2), .list li:nth-child(4){float: right;}
+
+.list li:last-child{margin-bottom: 41px}
+
+.list li a{
+	display: block;
+	text-align: center;
+}
+
+.works-name{
+	font: 22px/1.5 'EuroSansPro-Lig', Arial, sans-serif;
+	color: #000;
+}
+
