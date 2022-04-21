@@ -154,12 +154,11 @@ a, a:hover{text-decoration: none;}
 	float: left;	
 	width:  228px;
 	height:  150px;
-	transition: scale, 0.14s linear;
-	will-change: transform;
+	transition: all 0.15s linear;
 }
 
 .list li:hover{
-	transform:  scale(1.04);
+	box-shadow: 0 0 8px 4px rgba(255, 25, 25, 0.8);
 }
 
 .list li:nth-child(2), .list li:nth-child(4){float: right;}
