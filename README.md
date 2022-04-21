@@ -1,2 +1,2 @@
 # M-Dimonka.github.io
-Dmitry Zaparenko || Donetsk, Ukraine
+Dmitry Zaparenko || HTML-coder || Donetsk, Ukraine
